@@ -5,8 +5,8 @@ public class Rectangle extends Shape {
     private float width;
 
     public Rectangle(int x, int y, float length, float width) {
-        super(x, y);           // call Shape constructor
-        this.length = length;  // initialize Rectangle fields
+        super(x, y);
+        this.length = length;
         this.width = width;
     }
 
