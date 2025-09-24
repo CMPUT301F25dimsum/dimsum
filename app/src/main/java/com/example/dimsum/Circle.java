@@ -2,6 +2,8 @@ package com.example.dimsum;
 
 public class Circle extends Shape {
     private float radius;
+
+    String color = "cyan";
     public Circle(int x, int y, float radius) {
         super(x, y);
         this.radius = radius;
