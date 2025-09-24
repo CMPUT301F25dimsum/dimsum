@@ -6,7 +6,7 @@ public class Rectangle extends Shape {
 
     public Rectangle(int x, int y, float length, float width) {
         super(x, y);
-        this.length = length;  // initialize Rectangle fieldsgit
+        this.length = length;
         this.width = width;
     }
 
