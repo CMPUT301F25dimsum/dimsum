@@ -3,8 +3,9 @@ package com.example.dimsum;
 public abstract class Shape {
     private int x;
     private int y;
+    String color = "gray";
 
-    public Shape(int x, int y) {
+    public Shape(int gix, int y) {
         this.x = x;
         this.y = y;
     }
